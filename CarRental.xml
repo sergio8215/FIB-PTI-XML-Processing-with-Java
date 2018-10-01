@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<carrental xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNAmespaceSchemaLocation="carrental.xsd" />
+<carrental xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="carrental.xsd"><rental><make>Toyota</make><model>Corola</model><numdays>1</numdays><nounits>1</nounits><discount>10</discount></rental><rental><make>Ford</make><model>Focus</model><numdays>13</numdays><nounits>1</nounits><discount>0</discount></rental><rental><make>Renault</make><model>Clio</model><numdays>23</numdays><nounits>1</nounits><discount>20</discount></rental></carrental>

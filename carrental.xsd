@@ -3,7 +3,7 @@
 <xs:element name="carrental">
     <xs:complexType>
         <xs:sequence>
-            <xs:element maxOccurs="unbounded" name="rental">
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="rental">
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="make" type="xs:string" />

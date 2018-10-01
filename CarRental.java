@@ -56,8 +56,8 @@ public class CarRental {
         Element carElement = new Element("carrental");
         
         Namespace ns = Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance");    
-        carElement.setAttribute("noNAmespaceSchemaLocation", "carrental.xsd", ns);
-    
+        carElement.setAttribute("noNamespaceSchemaLocation", "carrental.xsd", ns);
+        
         //create the document
         Document myDocument = new Document(carElement);
         
